@@ -30,7 +30,7 @@ module "vendor_kit" {
   app_identity_principal_id = "31ffcf79-4292-4979-9637-9265dc1c7636"
 
   # Vendor may change (PR, a code owner approves)
-  containers = ["orders"]
+  containers = ["orders", "invoices"]
   enable_sql = false
 }
 
